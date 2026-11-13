@@ -31,3 +31,28 @@
 - **JavaScript:**
   - *Rol:* Proporciona la capa de interactividad, dinamismo y lógica de comportamiento en el navegador del usuario.
   - *Ejemplo en Rueda Libre:* La manipulación del DOM para interacciones avanzadas o validaciones dinámicas complementarias en el formulario de reservas.
+
+## MiniReto 2: Estructura HTML, Jerarquía de Contenidos y Enlaces
+
+### 1. Definición de la estructura base y metadatos
+- **Configuración del documento:** Declaración del tipo de documento con `<!DOCTYPE html>` y configuración del idioma principal en español (`lang="es"`).
+- **Metadatos corporativos (`<head>`):**
+  - Codificación de caracteres estándar (`UTF-8`).
+  - Configuración de la ventana gráfica para visualización adaptable (`viewport`).
+  - Título oficial de la página e inclusión del icono (`favicon`).
+
+### 2. Jerarquía de contenidos y encabezados
+- **Estructura semántica de títulos:** Uso estricto de un único encabezado principal de nivel uno (`<h1>`), y subtítulos organizados jerárquicamente (`<h2>` y `<h3>`) para seccionar el contenido (bienvenida, quiénes somos, servicios, requisitos, beneficios y taller básico).
+
+### 3. Implementación de listas HTML
+- **Listas ordenadas (`<ol>`):** Implementadas para detallar los requisitos e instrucciones secuenciales obligatorias para los usuarios que desean realizar un alquiler de bicicletas.
+- **Listas desordenadas (`<ul>`):** Utilizadas para agrupar los servicios principales de la empresa.
+
+### 4. Integración de recursos multimedia (Imágenes)
+- **Rutas y atributos:** Inserción del logotipo y de las fotografías requeridas por el cliente.
+- **Accesibilidad visual:** Incorporación obligatoria del atributo descriptivo `alt` en cada recurso gráfico para garantizar la correcta interpretación del contenido visual.
+
+### 5. Configuración de enlaces corporativos
+- **Enlaces internos por ancla (`#`):** Creación de un menú de navegación rápido basado en identificadores (`id`) para saltar de forma fluida entre las secciones de la misma página y el botón de retorno superior (`#inicio`).
+- **Enlaces absolutos externos:** Inserción del enlace de ubicación directa de la sede física en Google Maps, configurado de manera segura (`target="_blank" rel="noopener noreferrer"`).
+- **Enlaces de correo electrónico (`mailto:`):** Habilitación del canal de contacto directo de atención al cliente mediante el protocolo de correo corporativo (`hola@ruedalibre.example`).
